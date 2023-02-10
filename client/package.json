@@ -1,0 +1,28 @@
+{
+  "name": "multiscreen-client",
+  "version": "1.0.0",
+  "description": "multiscreen interaction client",
+  "private": true,
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "socket.io-client": "^4.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --entry ./src/game.js --output-filename ./dist/bundle.js --static ./src"
+  },
+  "keywords": [
+    "multiscreen",
+    "phaser",
+    "socketio",
+    "client",
+    "animation"
+  ],
+  "author": "Kerisha Stewart",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

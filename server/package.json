@@ -1,0 +1,25 @@
+{
+  "name": "multiscreen-interaction",
+  "version": "1.0.0",
+  "description": "multiscreen interaction concepts",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "multiscreen",
+    "animation",
+    "hft",
+    "phaser",
+    "atlas",
+    "sprite"
+  ],
+  "author": "Kerisha Stewart",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
